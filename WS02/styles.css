@@ -1,0 +1,65 @@
+    p {
+        color: blue;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    body {
+        background-color: lightgray;
+    }
+
+    .hobbies {
+        padding: 20px;
+        margin: 20px;
+        background-color: white;
+        max-width: 500px;
+        border-radius: 10px;
+    }
+
+    table {
+        margin-top: 20px;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: 1px solid #979797;
+        padding: 5px;    
+    }
+
+    th {
+        background-color: white;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        max-width: 200px;
+        margin-top: 20px;  
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input[type="text"], input[type="email"] {
+        padding: 5px;
+        border: 1px solid rgb(21, 21, 21);
+        border-radius: 10px;
+    }
+
+    input[type="submit"] {
+        background-color: #e16811;
+        cursor: pointer;
+        color: white;
+        border-radius: 10px;
+        border: 1px solid rgb(21, 21, 21);
+        
+    }
+
+    input[type="submit"]:hover {
+        background-color: #e16811b1;
+        
+    }
