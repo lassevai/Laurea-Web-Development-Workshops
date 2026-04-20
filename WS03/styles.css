@@ -1,0 +1,128 @@
+    p {
+        color: blue;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    body {
+        background-color: lightgray;
+    }
+
+    .hobbies {
+        padding: 20px;
+        margin: 20px;
+        background-color: white;
+        width: 500px;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    table {
+        margin-top: 20px;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: 1px solid #979797;
+        padding: 5px;    
+    }
+
+    th {
+        background-color: white;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        max-width: 200px;
+        margin-top: 20px;
+        padding-bottom: 20px;  
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input[type="text"], input[type="email"] {
+        padding: 5px;
+        border: 1px solid rgb(21, 21, 21);
+        border-radius: 10px;
+    }
+
+    input[type="submit"] {
+        background-color: #e16811;
+        cursor: pointer;
+        color: white;
+        border-radius: 10px;
+        border: 1px solid rgb(21, 21, 21);
+    }
+
+    input[type="submit"]:hover {
+        background-color: #e16811b1;
+        
+    }
+
+    .button-hover {
+        display: block;
+        padding: 12px 24px;
+        margin-bottom: 16px;
+        cursor: pointer;
+        border: none;
+        background-color: #e16811;
+        transition: background-color 0.5s ease-in-out;
+        font-size: 18px;
+        border-radius: 8px;
+    }
+
+    .button-hover:hover {
+        background-color: rgb(0, 132, 255);
+    }
+
+    .animated {
+        animation: floating 3s infinite alternate;
+    }
+
+    @keyframes floating {
+        from {
+            left: 0;
+        }        
+        to {
+            left: 160px;
+        }
+    }
+
+    .colored-list li:nth-child(odd) {
+        background-color: lightgrey;
+    }
+
+    .colored-list li:nth-child(even) {
+        background-color: lightcoral;
+    }
+
+    .image-filter {
+        filter: grayscale(100%);
+        transition: filter 0.5s ease-in-out;
+        max-width: 500px;
+    }
+
+    .image-filter:hover {
+        filter: grayscale(0%);
+    }
+
+    .sample-quote {
+        font-style: italic;
+        position: relative;
+        padding-left: 20px;
+    }
+
+    .sample-quote::before {
+        content: '"';
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: gray;
+        font-size: 40px;
+    }
